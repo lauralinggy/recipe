@@ -4,9 +4,14 @@ body {
 
 h1, h2, h3 { 
     color: rgb(83, 74, 135);
+    font-family: "Monstserrat", sans-serif;
+    font-weight: 700;
+    
 } 
 
 p, li {
     color: rgb(8, 94, 45);
-
+    font-family: fira-sans, sans-serif;
+    font-weight: 500;
+    font-style: italic;
 }
