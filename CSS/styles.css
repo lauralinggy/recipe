@@ -2,8 +2,11 @@ body {
   background-color: #e6f2f7;
 }
 
-h1 { 
-    color: rgb(1, 0, 10);
+h1, h2, h3 { 
+    color: rgb(83, 74, 135);
 } 
 
+p, li {
+    color: rgb(8, 94, 45);
 
+}
