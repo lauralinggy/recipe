@@ -15,3 +15,10 @@ p, li {
     font-weight: 500;
     font-style: italic;
 }
+.description {
+    width: 600px;
+}
+.left {
+    width: 600px;
+    float: left;
+}
