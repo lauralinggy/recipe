@@ -14,14 +14,28 @@ p, li {
     font-weight: 400;
 }
 
+.top h1 {
+    text-align: center;
+}
+
+.top img {
+    display: block;
+    margin: 0 auto;
+}
 
 .description {
     width: 600px;
+    margin: 0 auto;
 }
+
+top.caption {
+    text-align: center;
+}
+
 .left {
     width: 600px;
     float: left;
-    
+    margin-top: 20px;
 }
 .right {
     width: 600px;
@@ -33,4 +47,5 @@ footer {
 }
 .caption {
     font-style: italic;
+    text-align: center;
 }
