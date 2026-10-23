@@ -4,16 +4,16 @@ body {
 
 h1, h2, h3 { 
     color: rgb(83, 74, 135);
-    font-family: "Monstserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     
 } 
 
 p, li {
     color: rgb(8, 94, 45);
-    font-family: fira-sans, sans-serif;
+    font-family: "fira-sans", sans-serif;
     font-weight: 500;
-    font-style: italic;
+    
 }
 .description {
     width: 600px;
@@ -24,10 +24,13 @@ p, li {
     margin-top: 20px;
 }
 .right {
-    width: 600
+    width: 600px;
     float: left;
     margin-left: 30px;
 }
 footer {
     clear: both;
+}
+.caption {
+    font-style: italic;
 }
