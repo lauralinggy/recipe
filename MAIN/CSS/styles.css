@@ -1,0 +1,62 @@
+body {
+  background-color: #e6f2f7;
+}
+
+h1, h2, h3 { 
+    color: rgb(33, 162, 190);
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+} 
+
+p, li {
+    color: rgb(0, 0, 0);
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+}
+
+.top h1 {
+    text-align: center;
+    font-size: 64px;
+}
+
+.top img {
+    display: block;
+    margin: 0 auto;
+}
+
+.description {
+    width: 600px;
+    margin: 0 auto;
+}
+
+
+.left {
+    text-align: center;
+    width: 500px;
+    float: left;
+    margin-top: 20px;
+
+}
+.left ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.left img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.right {
+    width: 600px;
+    float: left;
+    margin-left: 30px;
+}
+footer {
+    clear: both;
+}
+.caption {
+    font-style: italic;
+    text-align: center;
+}
