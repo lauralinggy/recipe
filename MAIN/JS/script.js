@@ -21,5 +21,5 @@ steps.forEach(function (step) { //For each step
 
 //make button functional
 
-const gearList = document.getElementbById("gear-list"); 
+const gearList = document.getElementById("gear-list"); 
 const newGearBox = document.getElementById("new-gear")
