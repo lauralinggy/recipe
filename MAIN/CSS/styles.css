@@ -60,3 +60,8 @@ footer {
     font-style: italic;
     text-align: center;
 }
+
+.checked {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
