@@ -28,46 +28,65 @@ p, li {
 .top img {
     display: block;
     margin: 0 auto;
+    max-width: 100%;
 }
 
 .description {
     width: 600px;
     margin: 0 auto;
 }
-
-
-.left {
-    text-align: center;
-    width: 500px;
-    float: left;
-    margin-top: 20px;
-
-}
-.left ul {
-    display: inline-block;
-    text-align: left;
-}
-
-.left img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-}
-
-.right {
-    width: 600px;
-    float: left;
-    margin-left: 30px;
-}
-footer {
-    clear: both;
-}
 .caption {
     font-style: italic;
     text-align: center;
 }
 
-.checked {
-    text-decoration: line-through;
-    opacity: 0.5;
+.left {
+    width: 40%;
+    float: left;
+}
+
+.left img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right {
+    width: 55%;
+    float: left;
+    margin-left: 5%;
+}
+footer {
+    clear: both;
+}
+
+.gear, .steps {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 24px;
+}
+
+.add-gear {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+}
+#new-gear {
+    padding: 8px;
+    border: 1px solid rgb(33, 162, 190);
+    border-radius: 6px;
+}
+#add-gear-button {
+    background-color: rgb(33,162,190);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    cursor: pointer; 
+}
+#add-gear-button:hover {
+    background-color: rgb(20, 130, 155);
+}
+.gear li {
+    cursor: pointer;
 }
