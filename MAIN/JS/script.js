@@ -1,9 +1,17 @@
-// find every itme in the gear list
-//save them in a box called myDiveBag
-// for each item in my dive bag, wait for someone to click it, when clicked
-    //if it isnt crossed off, cross it off, IF it is crossed off, uncross it.
 
-const stepsDiv = document.getElementById("dive-steps"); //finds the steps section by its id 
+const myDiveBag = document.querySelectorAll(".gear li"); //this finds every item in the gear list
+myDiveBag.forEach(function) (item) { //for each item in my dive bag
+    item.addEventListener("click", function () { //wait for someone to click it
+        if (item.className === "packed") { //if it is crossed off
+            item.className = ""; //uncross it
+        } else {            //if it isn't crossed off
+            item.className = "packed";      //cross it off
+        
+        }
+    });
+});
+
+const myDiveBag = document.getElementById("dive-steps"); //finds the steps section by its id 
 const steps = stepsDiv.querySelectorAll("li"); //find every step inside section
 steps.forEach(function (step) { //For each step
     const checkbox = document.createElement("input"); //make a new checkbox
@@ -22,4 +30,4 @@ steps.forEach(function (step) { //For each step
 //make button functional
 
 const gearList = document.getElementById("gear-list"); 
-const newGearBox = document.getElementById("new-gear")
+const newGearBox = document.getElementById("new-gear");
