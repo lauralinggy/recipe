@@ -90,3 +90,12 @@ footer {
 .gear li {
     cursor: pointer;
 }
+.packed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.checked {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
