@@ -95,3 +95,23 @@ footer {
     font-size: 32px;
     color: rgb(33, 162, 190);
 }
+
+@media (max-width: 767px) {
+    .top h1 {
+        font-size: 40px;
+    }
+    .gear, .steps {
+        padding: 16px;
+    }
+    .add-gear {
+        flex-direction: column;
+    }
+}
+@media (min-width: 1200px) {
+    .top h1 {
+        font-size:80px;
+    }
+    p, li {
+        font-size: 18px;
+    }
+}
