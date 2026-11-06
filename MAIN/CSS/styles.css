@@ -32,7 +32,12 @@ li {
 
 .description {
     max-width: 600px;
-    margin: 16px auto 0;
+    margin: 16px auto 32;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid #FBEFC0;
+    border-radius: 12px;
+    padding: 20px 24px;
+    font-size: 18px;
 }
 
 .caption {
@@ -133,7 +138,8 @@ footer {
 
     .gear,
     .steps,
-    footer {
+    footer,
+    .description {
         padding: 16px;
     }
 
@@ -150,5 +156,9 @@ footer {
     p,
     li {
         font-size: 18px;
+    }
+
+    .description {
+        font-size: 20px;
     }
 }
