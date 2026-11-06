@@ -1,19 +1,22 @@
 body {
-  background-color: #e6f2f7;
+    background-color: #e6f2f7;
 }
 
 
-h1, h2, h3 { 
+h1,
+h2,
+h3 {
     color: rgb(33, 162, 190);
     font-family: "Amatic SC", sans-serif;
     font-weight: 700;
-} 
+}
 
-p, li {
+p,
+li {
     color: rgb(0, 0, 0);
     font-family: "Space Grotesk", sans-serif;
     font-weight: 400;
-    line-height: 1.6; 
+    line-height: 1.6;
 }
 
 .top h1 {
@@ -31,6 +34,7 @@ p, li {
     max-width: 600px;
     margin: 0 auto;
 }
+
 .caption {
     font-style: italic;
     text-align: center;
@@ -45,7 +49,8 @@ footer {
     clear: both;
 }
 
-.gear, .steps {
+.gear,
+.steps {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 12px;
     padding: 20px 24px;
@@ -57,25 +62,30 @@ footer {
     gap: 8px;
     margin-top: 12px;
 }
+
 #new-gear {
     padding: 8px;
     border: 1px solid rgb(33, 162, 190);
     border-radius: 6px;
 }
+
 #add-gear-button {
-    background-color: rgb(33,162,190);
+    background-color: rgb(33, 162, 190);
     color: white;
     border: none;
     border-radius: 6px;
     padding: 8px 16px;
-    cursor: pointer; 
+    cursor: pointer;
 }
+
 #add-gear-button:hover {
     background-color: rgb(20, 130, 155);
 }
+
 .gear li {
     cursor: pointer;
 }
+
 .packed {
     text-decoration: line-through;
     opacity: 0.5;
@@ -87,9 +97,10 @@ footer {
 }
 
 .navbar {
-    background-color: rgbaa(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 12px;
 }
+
 .nav-brand {
     font-family: "Amatic SC", sans-serif;
     font-size: 32px;
@@ -100,18 +111,24 @@ footer {
     .top h1 {
         font-size: 40px;
     }
-    .gear, .steps {
+
+    .gear,
+    .steps {
         padding: 16px;
     }
+
     .add-gear {
         flex-direction: column;
     }
 }
+
 @media (min-width: 1200px) {
     .top h1 {
-        font-size:80px;
+        font-size: 80px;
     }
-    p, li {
+
+    p,
+    li {
         font-size: 18px;
     }
 }
