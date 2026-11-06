@@ -66,8 +66,8 @@ li {
 }
 
 #add-gear-button {
-    background-color: rgb(33, 162, 190);
-    color: white;
+    background-color: #F6DC7A;
+    color: #3b3000;
     border: none;
     border-radius: 6px;
     padding: 8px 16px;
@@ -75,11 +75,16 @@ li {
 }
 
 #add-gear-button:hover {
-    background-color: rgb(20, 130, 155);
+    background-color: #FBEFC0
 }
 
 .gear li {
     cursor: pointer;
+}
+
+.gear li:hover {
+    background-color: #FBEFC0;
+    border-radius: 4px;
 }
 
 .packed {
@@ -94,6 +99,7 @@ li {
 
 .navbar {
     background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: 3px solid #F6DC7A;
     border-radius: 12px;
 }
 
