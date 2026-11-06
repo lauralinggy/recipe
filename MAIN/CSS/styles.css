@@ -45,10 +45,6 @@ li {
     height: auto;
 }
 
-footer {
-    clear: both;
-}
-
 .gear,
 .steps {
     background-color: rgba(255, 255, 255, 0.7);
@@ -101,7 +97,7 @@ footer {
     border-radius: 12px;
 }
 
-.nav-brand {
+.navbar-light .navbar-brand {
     font-family: "Amatic SC", sans-serif;
     font-size: 32px;
     color: rgb(33, 162, 190);
