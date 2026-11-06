@@ -32,7 +32,7 @@ li {
 
 .description {
     max-width: 600px;
-    margin: 16px auto 32;
+    margin: 16px auto 32px;
     background-color: rgba(255, 255, 255, 0.7);
     border: 2px solid #FBEFC0;
     border-radius: 12px;
