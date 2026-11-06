@@ -6,7 +6,7 @@ myDiveBag.forEach(function (item) { //for each item in my dive bag
             item.className = ""; //uncross it
         } else {            //if it isn't crossed off
             item.className = "packed";      //cross it off
-        
+
         }
     });
 });
@@ -17,7 +17,7 @@ steps.forEach(function (step) { //For each step
     const checkbox = document.createElement("input"); //make a new checkbox
     checkbox.type = "checkbox";
     step.prepend(checkbox); //put it in front of the step, prepend = put this at the beginning 
-    
+
     checkbox.addEventListener("change", function () { //wait for the checkbox to change
         if (checkbox.checked) {
             step.className = "checked"; //if checked cross it off
@@ -39,8 +39,8 @@ addGearButton.addEventListener("click", function () {
         const newListItem = document.createElement("li");
         newListItem.textContent = newGearText;
         gearList.appendChild(newListItem);
-        
-        newListItem.addEventListener("click", function (){
+
+        newListItem.addEventListener("click", function () {
             if (newListItem.className === "packed") {
                 newListItem.className = "";
             } else {
