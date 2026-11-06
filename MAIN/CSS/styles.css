@@ -45,9 +45,19 @@ li {
     height: auto;
 }
 
+
 .gear,
 .steps {
     background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid #F6DC7A;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 24px;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid #FBEFC0;
     border-radius: 12px;
     padding: 20px 24px;
     margin-bottom: 24px;
@@ -109,25 +119,6 @@ li {
     color: rgb(33, 162, 190);
 }
 
-
-.gear,
-.steps {
-    background-color: rgba(255, 255, 255, 0.7);
-    border: 2px solid #F6DC7A;
-    border-radius: 12px;
-    padding: 20px 24px;
-    margin-bottom: 24px;
-}
-
-.add-gear {
-    flex-direction: column;
-}
-
-p,
-li {
-    font-size: 18px;
-}
-
 .copyright {
     text-align: right;
     font-size: 14px;
@@ -141,7 +132,8 @@ li {
     }
 
     .gear,
-    .steps {
+    .steps,
+    footer {
         padding: 16px;
     }
 
