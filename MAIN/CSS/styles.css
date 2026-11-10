@@ -1,17 +1,22 @@
 body {
-  background-color: #e6f2f7;
+    background-color: #e6f2f7;
 }
 
-h1, h2, h3 { 
+
+h1,
+h2,
+h3 {
     color: rgb(33, 162, 190);
     font-family: "Amatic SC", sans-serif;
     font-weight: 700;
-} 
+}
 
-p, li {
+p,
+li {
     color: rgb(0, 0, 0);
     font-family: "Space Grotesk", sans-serif;
     font-weight: 400;
+    line-height: 1.6;
 }
 
 .top h1 {
@@ -22,41 +27,129 @@ p, li {
 .top img {
     display: block;
     margin: 0 auto;
-}
-
-.description {
-    width: 600px;
-    margin: 0 auto;
-}
-
-
-.left {
-    text-align: center;
-    width: 500px;
-    float: left;
-    margin-top: 20px;
-
-}
-.left ul {
-    display: inline-block;
-    text-align: left;
-}
-
-.left img {
-    display: block;
-    margin: 0 auto;
     max-width: 100%;
 }
 
-.right {
-    width: 600px;
-    float: left;
-    margin-left: 30px;
+.description {
+    max-width: 600px;
+    margin: 16px auto 32px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid #FBEFC0;
+    border-radius: 12px;
+    padding: 20px 24px;
+    font-size: 18px;
 }
-footer {
-    clear: both;
-}
+
 .caption {
     font-style: italic;
     text-align: center;
+}
+
+.left img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.gear,
+.steps {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid #F6DC7A;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 24px;
+}
+
+.add-gear {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+#new-gear {
+    padding: 8px;
+    border: 1px solid rgb(33, 162, 190);
+    border-radius: 6px;
+}
+
+#add-gear-button {
+    background-color: #F6DC7A;
+    color: #3b3000;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+#add-gear-button:hover {
+    background-color: #FBEFC0;
+}
+
+.gear li {
+    cursor: pointer;
+}
+
+.gear li:hover {
+    background-color: #FBEFC0;
+    border-radius: 4px;
+}
+
+.packed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.checked {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: 3px solid #F6DC7A;
+    border-radius: 12px;
+}
+
+.navbar-light .navbar-brand {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 32px;
+    color: rgb(33, 162, 190);
+}
+
+.copyright {
+    text-align: right;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+
+@media (max-width: 767px) {
+    .top h1 {
+        font-size: 40px;
+    }
+
+    .gear,
+    .steps,
+    .description {
+        padding: 16px;
+    }
+
+    .add-gear {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1200px) {
+    .top h1 {
+        font-size: 80px;
+    }
+
+    p,
+    li {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 20px;
+    }
 }
